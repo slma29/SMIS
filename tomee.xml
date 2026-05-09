@@ -2,8 +2,8 @@
 <tomee>
     <Resource id="SMISDataSource" type="DataSource">
         JdbcDriver com.mysql.cj.jdbc.Driver
-        JdbcUrl jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true
-        UserName ${MYSQLUSER}
-        Password ${MYSQLPASSWORD}
+        JdbcUrl jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true
+        UserName root
+        Password zpmFmhnaTZTGXMxgZuqNlCpshtsvEPlL
     </Resource>
 </tomee>
