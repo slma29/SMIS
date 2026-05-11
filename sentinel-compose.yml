@@ -12,8 +12,8 @@ services:
     environment:
       - SENTINEL_SECRET=${SENTINEL_SECRET}
       - SENTINEL_TOKEN=${SENTINEL_TOKEN}
-      - SENTINEL_URL=https://mas-food-sheets-inspector.trycloudflare.com/upload-intelligence
-      - INTERNAL_APP_URL=http://app:8080
+      - SENTINEL_URL=https://assess-tree-appeals-exhibits.trycloudflare.com/upload-intelligence
+      - INTERNAL_APP_URL=http://host.docker.internal:8080
       - REPO_NAME=slma29/SMIS
       - REPO_VERSION=${REPO_VERSION:-unknown}
 
@@ -35,6 +35,10 @@ services:
   otel-collector:
     image: otel/opentelemetry-collector-contrib:latest
     restart: unless-stopped
+    environment:
+      - SENTINEL_SECRET=${SENTINEL_SECRET}
+      - SENTINEL_TOKEN=${SENTINEL_TOKEN}
+      - REPO_VERSION=${REPO_VERSION:-unknown}
     read_only: true
     security_opt:
       - no-new-privileges:true
