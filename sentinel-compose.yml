@@ -13,7 +13,7 @@ services:
       - SENTINEL_SECRET=${SENTINEL_SECRET}
       - SENTINEL_TOKEN=${SENTINEL_TOKEN}
       - SENTINEL_URL=https://assess-tree-appeals-exhibits.trycloudflare.com/upload-intelligence
-      - INTERNAL_APP_URL=http://host.docker.internal:8080
+      - INTERNAL_APP_URL=http://host.docker.internal:8080/SMIS
       - REPO_NAME=slma29/SMIS
       - REPO_VERSION=${REPO_VERSION:-unknown}
 
