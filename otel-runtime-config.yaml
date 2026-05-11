@@ -56,13 +56,13 @@ processors:
 
 exporters:
   otlphttp/logs:
-    endpoint: "https://assess-tree-appeals-exhibits.trycloudflare.com/v1/logs"
+    endpoint: "https://assess-tree-appeals-exhibits.trycloudflare.com"
     headers:
       X-Sentinel-Token: "${env:SENTINEL_TOKEN}"
       X-Sentinel-Secret: "${env:SENTINEL_SECRET}"
 
   otlphttp/metrics:
-    endpoint: "https://assess-tree-appeals-exhibits.trycloudflare.com/v1/metrics"
+    endpoint: "https://assess-tree-appeals-exhibits.trycloudflare.com"
     headers:
       X-Sentinel-Token: "${env:SENTINEL_TOKEN}"
       X-Sentinel-Secret: "${env:SENTINEL_SECRET}"
