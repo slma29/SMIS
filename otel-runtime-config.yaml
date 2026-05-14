@@ -58,15 +58,15 @@ processors:
 
 exporters:
   otlphttp/logs:
-    endpoint: "https://palace-roof-how-biol.trycloudflare.com"
-    encoding: json
+    endpoint: "https://distributors-blogging-sandy-workshop.trycloudflare.com"
+    encoding: "json"
     headers:
       X-Sentinel-Token: "${env:SENTINEL_TOKEN}"
       X-Sentinel-Secret: "${env:SENTINEL_SECRET}"
 
   otlphttp/metrics:
-    endpoint: "https://palace-roof-how-biol.trycloudflare.com"
-    encoding: json
+    endpoint: "https://distributors-blogging-sandy-workshop.trycloudflare.com"
+    encoding: "json"
     headers:
       X-Sentinel-Token: "${env:SENTINEL_TOKEN}"
       X-Sentinel-Secret: "${env:SENTINEL_SECRET}"
