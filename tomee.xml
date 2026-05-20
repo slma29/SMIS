@@ -2,8 +2,8 @@
 <tomee>
     <Resource id="SMISDataSource" type="DataSource">
         JdbcDriver com.mysql.cj.jdbc.Driver
-        JdbcUrl jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true
-        UserName root
-        Password zpmFmhnaTZTGXMxgZuqNlCpshtsvEPlL
+        JdbcUrl jdbc:mysql://mysql-14c89c9c-sloumabenkhamsa-74d2.j.aivencloud.com:11309/defaultdb?sslMode=REQUIRED&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true
+        UserName avnadmin
+        Password AVNS_TVgBJgBvvEzACER2wlm
     </Resource>
 </tomee>
