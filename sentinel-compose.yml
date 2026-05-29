@@ -14,7 +14,7 @@ services:
       - SENTINEL_SECRET=${SENTINEL_SECRET}
       - SENTINEL_TOKEN=${SENTINEL_TOKEN}
       - SENTINEL_URL=https://wayne-article-english-standard.trycloudflare.com/upload-intelligence
-      - INTERNAL_APP_URL=http://smis-pfe.spaincentral.cloudapp.azure.com:8080/SMIS/
+      - INTERNAL_APP_URL=http://smis-pfe.spaincentral.cloudapp.azure.com:8082/SMIS/
       - REPO_NAME=slma29/SMIS
       - REPO_VERSION=${REPO_VERSION:-unknown}
 
