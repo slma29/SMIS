@@ -78,7 +78,7 @@ Copy target/SMIS.war into TOMEE_HOME/webapps and start TomEE.
 ---
 
 ## 🚀 Access
-https://smis-bqc4d0a7a8aehnc8.francecentral-01.azurewebsites.net/
+http://smis-pfe.spaincentral.cloudapp.azure.com:8080/SMIS/
 ---
 
 ## 👨‍🎓 Author
