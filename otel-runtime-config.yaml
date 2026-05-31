@@ -46,7 +46,7 @@ processors:
 
 exporters:
   otlphttp/metrics:
-    endpoint: "https://wayne-article-english-standard.trycloudflare.com"
+    endpoint: "https://vanilla-vocals-chief-won.trycloudflare.com"
     encoding: json
     headers:
       X-Sentinel-Token: "${env:SENTINEL_TOKEN}"
