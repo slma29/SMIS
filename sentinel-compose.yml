@@ -9,12 +9,12 @@ services:
     tmpfs:
       - /tmp
     ports:
-      - "8081:8081"
+      - "8080:8081"
     environment:
       - SENTINEL_SECRET=${SENTINEL_SECRET}
       - SENTINEL_TOKEN=${SENTINEL_TOKEN}
-      - SENTINEL_URL=https://vanilla-vocals-chief-won.trycloudflare.com
-      - INTERNAL_APP_URL=http://smis-pfe.spaincentral.cloudapp.azure.com:8082/SMIS/
+      - SENTINEL_URL=https://wayne-article-english-standard.trycloudflare.com/upload-intelligence
+      - INTERNAL_APP_URL=http://172.17.0.1:8082/SMIS/
       - REPO_NAME=slma29/SMIS
       - REPO_VERSION=${REPO_VERSION:-unknown}
 
