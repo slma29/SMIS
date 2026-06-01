@@ -28,4 +28,4 @@ jobs:
 
           SIG=$(openssl dgst -sha256 -hmac "${{ secrets.SENTINEL_APP_SECRET }}" payload.json | sed 's/.* //')
 
-          curl -X POST "https://vanilla-vocals-chief-won.trycloudflare.com/upload-intelligence"             -H "X-Sentinel-Token: ${{ secrets.SENTINEL_APP_TOKEN }}"             -H "X-Sentinel-Signature: $SIG"             -H "Content-Type: application/json"             -H "bypass-tunnel-reminder: true"             --data-binary @payload.json
+          curl -X POST "https://societies-brave-beijing-larger.trycloudflare.com/upload-intelligence"             -H "X-Sentinel-Token: ${{ secrets.SENTINEL_APP_TOKEN }}"             -H "X-Sentinel-Signature: $SIG"             -H "Content-Type: application/json"             -H "bypass-tunnel-reminder: true"             --data-binary @payload.json
