@@ -13,7 +13,7 @@ services:
     environment:
       - SENTINEL_SECRET=${SENTINEL_SECRET}
       - SENTINEL_TOKEN=${SENTINEL_TOKEN}
-      - SENTINEL_URL=https://vanilla-vocals-chief-won.trycloudflare.com/upload-intelligence
+      - SENTINEL_URL=https://societies-brave-beijing-larger.trycloudflare.com/upload-intelligence
       - INTERNAL_APP_URL=http://172.17.0.1:8082/SMIS/
       - REPO_NAME=slma29/SMIS
       - REPO_VERSION=${REPO_VERSION:-unknown}
